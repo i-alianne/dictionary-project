@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import Dictionary from "./Dictionary.js";
 import "./App.css";
 
@@ -8,6 +8,8 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <h1>DICTIONARY</h1>
+          <p>What word do you want to look up?</p>
         </header>
         <main>
           <Dictionary />
