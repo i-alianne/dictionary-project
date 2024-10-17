@@ -6,6 +6,12 @@
   margin: 20px 0;
 }
 
+.Dictionary section .question {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .Dictionary input {
   width: 100%;
   padding: 6px 4px;
